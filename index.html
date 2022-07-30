@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-08">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <link rel="stylesheet" href="style.css" />
+        <title>Explorer | Formulário Avançado</title>
+    </head>
+
+
+<body>
+   <div class="page">
+    <header>
+        <h1>AVALIE A SUA MENTORIA</h1>
+        <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+        <img src="_images/img1.png" alt="Imagem de um chat com 5 estrelas">
+    </header>
+
+    <form action="">
+        
+    <h2>INFORMAÇÕES PESSOAIS</h2>
+        
+    <div class="form">
+ 
+        <div class="col-two">
+            <div class="input-wrapper">
+            <label for="mentory-name">Nome</label>
+            <input type="text" id="mentory-name">
+            </div>
+
+            <div class="input-wrapper">
+            <label for="mentory-sobrenome">Sobrenome</label>
+            <input type="text" id="mentory-sobrenome">
+            </div>
+        </div><!--col-two-->
+
+        <div class="input-wrapper">
+            <label for="mentory-email">E-mail <span>(digite um e-mail válido)</span></label>
+            <input type="email" id="mentory-email" required>
+        </div>
+
+        <fieldset>
+            <legend>INFORMAÇÕES DO MENTOR</legend>
+
+            <div class="input-wrapper">
+            <label for="mentory-mentor">selecione quem foi seu mentor</label>
+            <select name="" id="mentory-mentot" required>
+                <option value="select">Selecione o mentor</option>
+                <option value="mayk">Mayk Brito</option>
+                <option value="diego">Diego Fernandes</option>
+                <option value="jakie">Jakeliny Gracielly</option>
+                <option value="rodrigo">Rodrigo Gonçalves</option>
+            </select>
+            </div>
+
+            <div class="input-wrapper" >
+            <label for="mentory-feedback">Feedback sobre o mentor</label>
+            <textarea name="" id="mentory-feedback" cols="30" rows="10" required></textarea>
+            </div>
+
+            <div class="checkbox-wrapper">
+            <input type="checkbox" name="mentory-check" id="">
+            <label for="mentory-check">Todas as minhas dúvidas foram esclarecidas durante a mentoria</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+        <legend>AGENDANDO PRÓXIMA MENTORIA</legend>
+
+        <div class="col-three">
+            <div class="input-wrapper">
+                <label for="mentory-date">Data</label>
+                <input type="date" name="" id="mentory-date">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="mentory-begin">Das</label>
+                <input type="time" name="" id="mentory-begin">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="mentory-end">Até</label>
+                <input type="time" name="" id="mentory-end">
+            </div>
+        </div>
+        </fieldset>
+
+        <footer>
+        <input type="button" value="SALVAR">
+        <footer>
+
+    </div><!--form-->
+    </form>
+
+    
+   </div>
+</body>
+</html>
